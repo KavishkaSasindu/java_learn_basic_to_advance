@@ -1,12 +1,11 @@
 public class Demo {
     public static void main(String args[]) {
-        System.out.println("Hello");
-        String name = "Kavishka Sasindu";
+        
+        Hello hello = new Hello();
+        
+        Hello hello1 = new Hello("GitHub","github@gmail.com");
 
-        System.out.println(name);
-
-        Hello obj = new Hello();
-
-        System.out.println(obj.name);
+        System.out.println(hello1.getName());
+        System.out.println(hello1.getUserEmail());
     }
 }
