@@ -1,12 +1,13 @@
 public class Demo {
     public static void main(String args[]) {
-        System.out.println("Hello");
-        String name = "Kavishka Sasindu";
+        
+        Calc calc = new Calc();
 
-        System.out.println(name);
+        Feature calc1 =  new Feature(30,25);
+        System.out.println(calc1.addNumber());
+        System.out.println(calc1.subNumber());
+        System.out.println(calc1.multi());
+        System.out.println(calc1.division());
 
-        Hello obj = new Hello();
-
-        System.out.println(obj.name);
     }
 }
