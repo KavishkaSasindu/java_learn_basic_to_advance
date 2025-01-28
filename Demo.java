@@ -7,6 +7,23 @@ public class Demo {
 
         Hello obj = new Hello();
 
-        System.out.println(obj.name);
+        System.out.println(obj.myName);
+
+
+        // encapsulation
+
+        Encap encap = new Encap();
+
+        System.out.println(encap.getpNumber());
+        encap.setpNumber(1926388);
+
+
+    }
+
+    public class User {
+
+        public static void userName() {
+            System.out.print("Hello User");
+        }
     }
 }
