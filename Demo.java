@@ -4,5 +4,9 @@ public class Demo {
         String name = "Kavishka Sasindu";
 
         System.out.println(name);
+
+        Hello obj = new Hello();
+
+        System.out.println(obj.name);
     }
 }
