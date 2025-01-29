@@ -1,7 +1,7 @@
 package tools;
 
 public class Calc {
-    Calc() {
+    public Calc() {
         System.out.println("Hello User");
     }
 }

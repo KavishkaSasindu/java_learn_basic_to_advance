@@ -1,5 +1,5 @@
 public class AddCalc {
-    AddCalc() {
+    public AddCalc() {
         System.out.println("Hello User this is addcalc constructor");
     }
 }
