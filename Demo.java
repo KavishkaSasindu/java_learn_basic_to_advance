@@ -8,5 +8,12 @@ public class Demo {
         Hello obj = new Hello();
 
         System.out.println(obj.name);
+
+        int number1 = 5;
+
+        float number = (float)number1;
+
+        System.out.println(number);
+
     }
 }
