@@ -1,12 +1,16 @@
 public class Demo {
     public static void main(String args[]) {
-        System.out.println("Hello");
-        String name = "Kavishka Sasindu";
+        
+        int num = 7;
 
-        System.out.println(name);
+        // wrapper classes (Integer,Float,Double etc) those are classes and create object below example
 
-        Hello obj = new Hello();
+        Integer number  = num;   // autoboxing
 
-        System.out.println(obj.name);
+        System.out.println(number);
+
+        String str = "12";
+        int stringNumber = Integer.parseInt(str);
+        System.out.println(stringNumber*2);
     }
 }
