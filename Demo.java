@@ -12,5 +12,9 @@ public class Demo {
         for(Status status: ss) {
             System.out.println(status+ " : "+status.ordinal() );
         }
+
+        for(EnumClass enumClass : EnumClass.values()) {
+            System.out.println(enumClass);
+        }
     }
 }

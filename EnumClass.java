@@ -13,6 +13,10 @@ public enum EnumClass {
     // in enum class we can write our own methods
 
     
+    private EnumClass() {
+        // default condtructore
+    }
+
     public int getPrice() {  // Getter method
         return price;
     }
