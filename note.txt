@@ -1,0 +1,20 @@
+functional interface ----
+-->function interface allow only SAM it means *Single Abstract Method*
+
+we can use annotation to identify and know for compiler this is functional interface @FunctionalInterface
+
+-->Lambda expression only can use with Functional Interface
+
+
+@FunctionalInterface
+public interface MyInterface {
+    void show();
+}
+
+public class Demo {
+    public static void main(String[] args) {
+
+        MyInterface obj = () -> System.out.println("This is show method definition in functional interface);
+
+    }
+}
