@@ -1,4 +1,4 @@
 @FunctionalInterface
 public interface InterfaceA {
-    public void display();
+    public void display(String name);
 }

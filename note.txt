@@ -11,10 +11,25 @@ public interface MyInterface {
     void show();
 }
 
+**when you used lambda expression you do not need to create a class to write definition for abstract method in interface
+
 public class Demo {
     public static void main(String[] args) {
 
         MyInterface obj = () -> System.out.println("This is show method definition in functional interface);
 
+        obj.show();
+
+    }
+}
+
+---if the values are return we can simply write this
+
+public class Demo {
+    public static void main (String[] args) {
+
+        InterfaceA obj = (String name) -> name;
+
+        System.out.println(obj.show());
     }
 }

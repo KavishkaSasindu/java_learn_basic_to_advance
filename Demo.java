@@ -6,8 +6,8 @@ public class Demo {
 
 
         // functional interface with lambda expression
-        InterfaceA obj1 = ()->System.out.println("This is display method in functional interface in InterfaceA");
+        InterfaceA obj1 = (String name)->System.out.println("This is display method in functional interface in InterfaceA "+name);
 
-        obj1.display();
+        obj1.display("Kavishka Sasindu");
     }
 }
