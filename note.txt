@@ -1,0 +1,13 @@
+Exception---
+
+
+---in our code there are 3 types of errors
+    1.Compile Time errors
+        --when the code compile there  are sevaral syntax errors or this related issues can be happen
+    2.Runtime errors
+        --when the code compile success but when the code run it can be cause to errors
+        example ArithmaticException,NullPointerException
+    3.Logical errors
+        --Logical errors mean in our logic .it can be an error 
+
+        
