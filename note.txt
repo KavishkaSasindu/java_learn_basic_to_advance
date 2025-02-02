@@ -1,0 +1,61 @@
+collection API - concept
+collecion - an interface
+collections - it is your class
+
+--so simply array can store multiple values
+
+int nums[] = new int[5];
+
+but these arrays are limited i want more size;
+    -- we have two options ->
+        ->first one is declare large size of array an copy all those above array into it.it is more complex.
+        ->Second one is create dynalic array class
+
+        second option is most common and it is good practice
+        --> so we need collection class(Collection Interface)
+
+        Collection nums = new Collection();
+
+
+collection interface implements with some classes
+1.List -- ArrayList,LinkedList
+2.Queue -- DeQueue
+3.Stack -- HashSet,LinkedHashSet
+
+
+ArrayList--
+
+for create ArrayList;
+import java.util.Collection;
+import java.util.ArrayList;
+
+------Collection nums = new ArrayList();----
+
+this is how you can create an ArrayList
+
+how can i add values to it;
+    nums.add(6);
+    nums.add(4);
+
+    we can print those with a for loop but ther is a problem...those values store as a object.
+
+    when we print those
+
+    for(DataType objectName : Your Array) {
+        System.out.println(objectName);
+    }
+
+    for (int n : nums) {   // this show error  you defined for loop values type as int.
+        System.out.println(n); // 
+    }
+
+after defined values as int it shwo error how the ArrayList know its values are interger
+for that they introduce generics.
+
+*** Collection<Integer> nums = new ArrayList<Interger>();  ******
+
+if we remove generics it simply objects..so always mentioned the type;
+
+
+----List<String> names = new ArrayList<String>();
+
