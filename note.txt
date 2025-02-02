@@ -1,4 +1,5 @@
 Exception---
+**exception are something you can handle and you should handle.
 
 
 ---in our code there are 3 types of errors
@@ -10,4 +11,45 @@ Exception---
     3.Logical errors
         --Logical errors mean in our logic .it can be an error 
 
-        
+---Exception Throw keyword
+->you can use throw keyword to create an exception
+so you can stop printing exception and create exception then send or storeit.
+simply it throw the exception and catch block wil catch the exception.
+
+----creating custom exception
+    for that you can ceate a nw class for your exception name and create constructors (parameterized one and eafult)
+    also the class extends from Exception class
+
+    public class KavishkaException extends Exception {
+
+        KavishkaException() {
+
+        }
+
+        KavishkaException(String str) {
+            super(str)  //for pass value for base c;ass constructor
+        }
+    }
+
+    public class Main {
+        public static void main(String[] args) {
+
+            int number1 = 0;
+            int number2 = 20;
+
+
+            int result;
+
+            try{
+                if( number1 == 0){
+                    throw new KavishkaException("Can not divide by zero);
+                }else{
+                    result = number2/number1;
+                }
+            }catch(KavishkaException e){
+                System.out.println(e);
+            }catch(Exception e){
+                System.out.println(e)
+            }
+        }
+    }
