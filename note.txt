@@ -1,0 +1,7 @@
+---Strem API----
+
+This help to process data efficiently using functional programming techniques.
+help to do functional operations in Collection Interface (List,ArrayList,Set)
+
+forEach() Method
+
