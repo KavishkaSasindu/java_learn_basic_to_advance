@@ -59,3 +59,13 @@ if we remove generics it simply objects..so always mentioned the type;
 
 ----List<String> names = new ArrayList<String>();
 
+**list support same value multiple times**
+
+--set 
+
+    --set doesnot keep same value it only store unique values.
+
+    to create aset
+
+    ----- Set<Integer> nums = new HashSet<Integer>(); ------
+
