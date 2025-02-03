@@ -69,3 +69,20 @@ if we remove generics it simply objects..so always mentioned the type;
 
     ----- Set<Integer> nums = new HashSet<Integer>(); ------
 
+
+**Map--> it is not in Collection,, it mean it not extends in Collection
+
+-- Map is pair of key and value
+
+    Map<Key,Value> objectName = new HasMap<>();
+
+    Map<String,Integer> students = new HasMap<>();
+
+    to add Data-->
+        students.put("age",24);
+
+
+    access a key for value-->
+        students.get("age);
+
+        in Map key can not be repeated.

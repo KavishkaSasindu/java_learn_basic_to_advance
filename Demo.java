@@ -14,8 +14,16 @@ public class Demo {
         arrayListClass.displayNames();
 
 
-        // HashSet Practical
+        // HashSet Practical (Print without sorted)
         SetClass setClass = new SetClass();
         setClass.displayAges();
+
+        // TreeSet Practical (Print after sorted default)
+        TreeSetClass treeSetClass = new TreeSetClass();
+        treeSetClass.displayNumber();
+
+        // Map Practical
+        MapClass mapClass = new MapClass();
+        mapClass.displayMap();
     }
 }

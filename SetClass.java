@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class SetClass {
     
-    Set<Integer> ages = new HashSet<Integer>();  // only allow unique values 
+    Set<Integer> ages = new HashSet<Integer>();  // only allow unique values  
 
     SetClass() {
         System.out.println("This is hashSet");
@@ -14,7 +14,7 @@ public class SetClass {
 
     public void displayAges() {
         for(int age : ages) {
-            System.out.println(age);
+            System.out.println(age); // give unsorted 
         }
     }
 }
