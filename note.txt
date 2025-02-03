@@ -1,7 +1,37 @@
----Strem API----
+---Stream API----
 
 This help to process data efficiently using functional programming techniques.
 help to do functional operations in Collection Interface (List,ArrayList,Set)
 
 forEach() Method
+
+Stream is basically is an interface
+
+List<String> names = new ArrayList<Integer>();
+
+we create a dynamic list to store name..then create a Stream object for it so using
+stream object we can do anything to our list without affecting anything to it.
+
+--creating stream object---
+
+Stream<String> s1 - names.stream(); ** stream object can be used for only one operation in this example it is forEach
+
+
+s1.forEach((name)->{
+    System.out.println(name);
+});
+
+if you want another operation you can create a new stream object
+
+Stream<String> s2 = names.stream();
+
+    public void displayStreamObject() {
+        s2.filter((name)->{
+            return name.startsWith("K");
+        });
+
+        s1.forEach((name)->{
+            System.out.println(name);
+        });
+    }
 

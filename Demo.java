@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.List;
-
 public class Demo {
     public static void main(String args[]) {
         
@@ -15,5 +12,8 @@ public class Demo {
         // forEach use for ArrayList
         PracticalClass practicalClass = new PracticalClass();
         practicalClass.displayListItems();
+
+        //  display using stream objct 
+        practicalClass.displayStreamObject();
     }
 }

@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.stream.Stream;
 import java.util.ArrayList;
 
 public class PracticalClass {
@@ -14,10 +15,25 @@ public class PracticalClass {
         names.add("Hashini");
     }
 
-    public void displayListItems() {
+    Stream<String> s1 = names.stream();
+    Stream<String> s2 = names.stream();
+
+ 
+
+    public void displayListItems() 
 
         names.forEach((name)->{
             System.out.println("value is "+ name);
+        });
+    }
+
+    public void displayStreamObject() {
+        s2.filter((name)->{
+            return name.startsWith("K");
+        });
+
+        s1.forEach((name)->{
+            System.out.println(name);
         });
     }
 
