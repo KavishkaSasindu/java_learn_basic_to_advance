@@ -25,5 +25,10 @@ public class Demo {
         // Map Practical
         MapClass mapClass = new MapClass();
         mapClass.displayMap();
+
+
+        // sorting 
+        SortingList sortingList = new SortingList();
+        sortingList.sortNumber();
     }
 }

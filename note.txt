@@ -86,3 +86,7 @@ if we remove generics it simply objects..so always mentioned the type;
         students.get("age);
 
         in Map key can not be repeated.
+
+
+--- Sorting List ----
+
