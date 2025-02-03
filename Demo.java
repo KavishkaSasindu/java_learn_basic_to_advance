@@ -15,5 +15,8 @@ public class Demo {
 
         //  display using stream objct 
         practicalClass.displayStreamObject();
+
+        practicalClass.newStreamNames();
     }
+
 }

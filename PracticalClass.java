@@ -17,10 +17,11 @@ public class PracticalClass {
 
     Stream<String> s1 = names.stream();
     Stream<String> s2 = names.stream();
+    Stream<String> s3 = names.stream();
 
  
 
-    public void displayListItems() 
+    public void displayListItems(){ 
 
         names.forEach((name)->{
             System.out.println("value is "+ name);
@@ -28,11 +29,30 @@ public class PracticalClass {
     }
 
     public void displayStreamObject() {
-        s2.filter((name)->{
+       s2 =  s2.filter((name)->{
             return name.startsWith("K");
         });
 
+        System.out.println();
+        s2.forEach((name)->{
+            System.out.println(name);
+        });
+        System.out.println();
+
         s1.forEach((name)->{
+            System.out.println(name);
+        });
+    }
+
+
+    public void newStreamNames() {
+
+        System.out.println();
+        s3 = s3.map((name)->{
+            return name.toUpperCase();
+        });
+        
+        s3.forEach((name)->{
             System.out.println(name);
         });
     }

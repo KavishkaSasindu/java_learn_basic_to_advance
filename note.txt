@@ -35,3 +35,12 @@ Stream<String> s2 = names.stream();
         });
     }
 
+
+    to use map ----
+
+    --> when you use map it will return a new stream
+
+    s3.map((name)->{
+        return name.toUpperCase();
+    })
+
